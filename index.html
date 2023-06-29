@@ -2,60 +2,24 @@
 <html lang="ZH-Hans">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>确认已满18周岁</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <title>Enjoy!</title>
 </head>
 <style>
-*{
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-}
- div{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-
-}
-.yes{
-    width: 150px;
-    height: 80px;
-    position: absolute;
-    left: 20%;
-    top: 400px;
-    background-color: rgb(254, 67, 101);
-    border-radius: 20px; 
-    font-size: 30px;
-    line-height: 80px;
-}
-.no{
-    width: 150px;
-    height: 80px;
-    position: absolute;
-    left: 70%;
-    top: 400px;
-    background-color: rgb(254, 67, 101);
-    border-radius: 20px;
-    font-size: 30px;
-    line-height: 80px;
-}
-.r18{
-    width: 500px;
-    height: 50px;
-    position: absolute;
-    left: 25%;
-    top: 100px;
-    color: tomato;
-    font-size: 30px;
-}
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    video{
+        position: fixed;  
+        right: 0px;  
+        bottom: 0px;  
+        min-width: 100%;  
+        min-height: 100%;  
+        height: auto;  
+        width: auto;  
+    }
 </style>
-<body style="background: url(./src/background.jpg) no-repeat; 
-background-size: 100% ;
-background-attachment: fixed ;">
-<div class="r18"><h4><span style="color: rgb(254, 67, 101); font-size: 65px;">确认已满18周岁!</span>造成精神上的损失， 本站概不负责！</h4></div>
-    <div class="yes"><a href="./main.html" style="color: rgb(252, 157, 154);">确认</a></div>
-    <div class="no"><a href="https://www.bilibili.com/" style="color: rgb(252, 157, 154);">退出</a></div>
+<body>
+<video src="./src/video.mp4" controls="controls" autoplay loop></video>
 </body>
 </html>
